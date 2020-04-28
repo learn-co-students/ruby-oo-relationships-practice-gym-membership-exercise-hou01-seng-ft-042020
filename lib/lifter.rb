@@ -30,6 +30,6 @@ class Lifter
   end
 
   def sign_up(cost,lifter,gym)
-    new_lifter = Membership.new(cost,self,gym)
+    Membership.new(cost,self,gym)
   end
 end
